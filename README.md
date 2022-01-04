@@ -15,7 +15,10 @@ This is simple design project or we can say landing page did for fun, with moder
 1. Clone the project
 2. Install NodeJS if doesn't installed
 3. Do `Npm install`
-4. run this command for up the dev server `npm run start`
+4. Run this command for up the dev server `npm run start`
+
+## Follow below step for production
+1. Do `Npm run build` 
 
 ## References
 1. [iconmoon](https://icomoon.io/)
