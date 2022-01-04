@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="img/favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="img/favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="img/favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="img/favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="img/favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="img/favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="img/favicons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="img/favicons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="img/favicons/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="img/favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicons/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Sample design</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="img/logo.png" alt="trillo logo" class="header__logo" />
+
+        <form action="#" class="search">
+          <input type="text" class="search__input" placeholder="Search" />
+          <button class="search-btn">
+            <svg class="search__icon">
+              <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <div class="toolbar">
+          <div class="toolbar-box">
+            <a href="#" class="toolbar-link">
+              <span class="toolbar-count">14</span>
+              <svg class="toolbar-icon">
+                <use xlink:href="img/sprite.svg#icon-bookmark"></use>
+              </svg>
+            </a>
+          </div>
+
+          <div class="toolbar-box">
+            <a href="#" class="toolbar-link">
+              <span class="toolbar-count">44</span>
+              <svg class="toolbar-icon">
+                <use xlink:href="img/sprite.svg#icon-chat"></use>
+              </svg>
+            </a>
+          </div>
+
+          <div class="toolbar-box__user">
+            <img
+              src="img/user.jpg"
+              alt="user-1"
+              class="toolbar-box__user-image"
+            />
+            <span class="toolbar-box__user-name">Raheem</span>
+          </div>
+        </div>
+      </header>
+
+      <div class="content">
+        <nav class="sidebar">
+          <ul class="sidebar__list">
+            <li class="sidebar__list-item sidebar__list-item--active">
+              <a href="#" class="sidebar__list-link"> Link 1 </a>
+            </li>
+
+            <li class="sidebar__list-item">
+              <a href="#" class="sidebar__list-link"> Link 2 </a>
+            </li>
+
+            <li class="sidebar__list-item">
+              <a href="#" class="sidebar__list-link"> Link 3 </a>
+            </li>
+
+            <li class="sidebar__list-item">
+              <a href="#" class="sidebar__list-link"> Link 4 </a>
+            </li>
+          </ul>
+        </nav>
+        <main class="main-container">
+          <div class="main-content">
+            <div class="main-content__description">
+              <div class="margin--bottom">
+                <h2 class="heading-secondary">Booking Status</h2>
+                <div class="sample-count-box-container">
+                  <div
+                    class="
+                      sample-count-box-container__item
+                      sample-count-box-container__item--pending
+                    "
+                  >
+                    <h4 class="heading-tertiary-2">Pending</h4>
+                    <span class="sample-count">50</span>
+                  </div>
+                  <div
+                    class="
+                      sample-count-box-container__item
+                      sample-count-box-container__item--reserved
+                      right--auto
+                    "
+                  >
+                    <h4 class="heading-tertiary-2">Reserved</h4>
+                    <span class="sample-count">250</span>
+                  </div>
+                  <div
+                    class="
+                      sample-count-box-container__item
+                      sample-count-box-container__item--query
+                    "
+                  >
+                    <h4 class="heading-tertiary-2">Queries</h4>
+                    <span class="sample-count">10</span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="margin--bottom">
+                <h2 class="heading-secondary">Newly Registered Hotels</h2>
+                
+                <div class="hotel hotel-container">
+                    <div class="hotel__item">
+                        <div class="hotel__image-box hotel__image-box--1">
+                            &nbsp;
+                        </div>
+                        <div class="hotel__description">
+                            <P class="margin--bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.</P>
+                            
+                          <div class="accept-container">
+                            <button class="btn btn-success">Accept</button>
+                            <button class="btn btn-danger">Reject</button>
+                          </div>
+                        
+                        </div>
+                    </div>
+
+                    <div class="hotel__item">
+                        <div class="hotel__image-box hotel__image-box--2">
+                            &nbsp;
+                        </div>
+                        <div class="hotel__description">
+                            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.</P>
+                            
+                            <div class="accept-container">
+                                <button class="btn btn-success">Accept</button>
+                                <button class="btn btn-danger">Reject</button>
+                              </div>
+                        
+                        </div>
+                    </div>
+
+                    <div class="hotel__item">
+                        <div class="hotel__image-box hotel__image-box--3">
+                            &nbsp;
+                        </div>
+                        <div class="hotel__description">
+                            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.</P>
+                        
+                            <div class="accept-container">
+                                <button class="btn btn-success">Accept</button>
+                                <button class="btn btn-danger">Reject</button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-content__review">
+              <h3 class="heading-tertiary">Other hotel stories</h3>
+
+              <div class="sample-content-box">
+                <div
+                  class="
+                    sample-content-box__item sample-content-box__item--round
+                  "
+                ></div>
+                <div
+                  class="
+                    sample-content-box__item sample-content-box__item--round
+                  "
+                ></div>
+                <div
+                  class="
+                    sample-content-box__item sample-content-box__item--round
+                  "
+                ></div>
+                <div
+                  class="
+                    sample-content-box__item sample-content-box__item--round
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
