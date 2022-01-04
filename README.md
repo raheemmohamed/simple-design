@@ -2,6 +2,8 @@
 
 This is simple design project or we can say landing page did for fun, with modern design, and also this is responsive
 
+[Live Demo- click here](https://raheemmohamed.github.io/simple-design/index.html)
+
 ## Design Screenshot
 ![Simple design](simple-design.png)
 
